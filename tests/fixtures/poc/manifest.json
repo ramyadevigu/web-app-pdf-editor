@@ -1,0 +1,62 @@
+{
+  "generator": "scripts/generate_poc_fixtures.py",
+  "reportlab_version": "5.1.0",
+  "pypdf_version": "7.1.0",
+  "font_source": "ReportLab's bundled Bitstream Vera font files",
+  "fixtures": [
+    {
+      "file": "contract-standard.pdf",
+      "pages": 3,
+      "fonts": [
+        "BitstreamVeraSans-Roman (embedded)",
+        "BitstreamVeraSans-Bold (embedded)",
+        "Helvetica (unembedded resource)"
+      ],
+      "bytes": 68039,
+      "sha256": "314b467395594a5f996f972266d73eaf448326d36a8448b266fbd10c6b19ad06"
+    },
+    {
+      "file": "fillable-form.pdf",
+      "pages": 2,
+      "fonts": [
+        "BitstreamVeraSans-Roman (embedded)",
+        "BitstreamVeraSans-Bold (embedded)",
+        "Helvetica (unembedded form appearance resource)"
+      ],
+      "bytes": 75236,
+      "sha256": "35961850430fc0420533351fdff0726e70483c9b11b4c5ff1e00a558aaf96da9"
+    },
+    {
+      "file": "multicolumn-report.pdf",
+      "pages": 4,
+      "fonts": [
+        "BitstreamVeraSans-Roman (embedded)",
+        "BitstreamVeraSans-Bold (embedded)",
+        "Helvetica (unembedded resource)"
+      ],
+      "bytes": 70803,
+      "sha256": "93ce2b1f2a9acb587994ad6a997461855165c586e2507534abcff16c7f232c3f"
+    },
+    {
+      "file": "embedded-font-specimen.pdf",
+      "pages": 2,
+      "fonts": [
+        "BitstreamVeraSans-Roman (embedded)",
+        "BitstreamVeraSans-Bold (embedded)",
+        "Helvetica (unembedded resource)"
+      ],
+      "bytes": 67112,
+      "sha256": "4c9b8dddeabe32e6db7a7d255e898804ae2cf6b845c69d5e9817344a77af2153"
+    },
+    {
+      "file": "single-column-reference.pdf",
+      "pages": 2,
+      "fonts": [
+        "BitstreamVeraSans-Roman (embedded)",
+        "Helvetica (unembedded resource)"
+      ],
+      "bytes": 66391,
+      "sha256": "298e0bf22dab356cd632122c25631583fc08cda5bfcb14904d88ee45933e7e70"
+    }
+  ]
+}
