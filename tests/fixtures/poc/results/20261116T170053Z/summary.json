@@ -1,0 +1,2561 @@
+{
+  "protocol": "DT-03 frozen protocol, 16 November 2026",
+  "runId": "20261116T170053Z",
+  "generatedAt": "2026-11-16T17:00:53.348Z",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "browserVersion": "157.0.8103.51",
+  "viewportCssPixels": {
+    "width": 1366,
+    "height": 577
+  },
+  "devicePixelRatio": 1,
+  "expectedEnvironment": {
+    "browser": "Chrome 157.0.8103.51",
+    "viewportCssPixels": {
+      "width": 1280,
+      "height": 800
+    },
+    "devicePixelRatio": 1
+  },
+  "referenceEnvironmentMatch": false,
+  "rendering": {
+    "renderer": "PDF.js 6.5.438",
+    "dpi": 150,
+    "scale": 2.0833333333333335,
+    "pixelThreshold": 16,
+    "maxDiffRatio": 0.005
+  },
+  "editing": {
+    "library": "pdf-lib 1.17.1",
+    "method": "overlay",
+    "productionUse": false
+  },
+  "fixtureResults": [
+    {
+      "fixtureId": "POC-01",
+      "file": "contract-standard.pdf",
+      "pageCount": 3,
+      "inputSha256": "314b467395594a5f996f972266d73eaf448326d36a8448b266fbd10c6b19ad06",
+      "outputSha256": "f2a7b8a50f93b2a1fc994cfd380d81354d67a39739fbaaa944ac54c388ec414c",
+      "caret": {
+        "passed": 28,
+        "total": 28,
+        "ratio": 1,
+        "criterionPassed": true,
+        "samples": [
+          {
+            "sample": 1,
+            "targetText": "Sample Service Agreement",
+            "expected": {
+              "xPt": 72,
+              "yPt": 728
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 728
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 2,
+            "targetText": "1. Parties and purpose. This sample agre",
+            "expected": {
+              "xPt": 72,
+              "yPt": 692
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 692
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 3,
+            "targetText": "selectable text, paragraph boundaries, a",
+            "expected": {
+              "xPt": 72,
+              "yPt": 677
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 677
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 4,
+            "targetText": "2. Services. The provider will perform t",
+            "expected": {
+              "xPt": 72,
+              "yPt": 644
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 644
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 5,
+            "targetText": "of work. Each statement will identify th",
+            "expected": {
+              "xPt": 72,
+              "yPt": 629
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 629
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 6,
+            "targetText": "and the contacts responsible for review.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 614
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 614
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 7,
+            "targetText": "3. Term. This agreement begins on the da",
+            "expected": {
+              "xPt": 72,
+              "yPt": 581
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 581
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 8,
+            "targetText": "until ended under its terms. A renewal r",
+            "expected": {
+              "xPt": 72,
+              "yPt": 566
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 566
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 9,
+            "targetText": "Page 1 of 3",
+            "expected": {
+              "xPt": 489.1,
+              "yPt": 36
+            },
+            "actual": {
+              "xPt": 489.10499999999996,
+              "yPt": 36
+            },
+            "deltaPt": 0.004999999999938609,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 1,
+            "targetText": "Sample Service Agreement",
+            "expected": {
+              "xPt": 72,
+              "yPt": 728
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 728
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 2,
+            "targetText": "4. Fees and records. The customer will p",
+            "expected": {
+              "xPt": 72,
+              "yPt": 692
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 692
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 3,
+            "targetText": "statement of work. Each party will keep ",
+            "expected": {
+              "xPt": 72,
+              "yPt": 677
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 677
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 4,
+            "targetText": "performance and payment.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 662
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 662
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 5,
+            "targetText": "5. Confidential information. A receiving",
+            "expected": {
+              "xPt": 72,
+              "yPt": 629
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 629
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 6,
+            "targetText": "confidential information and will use it",
+            "expected": {
+              "xPt": 72,
+              "yPt": 614
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 614
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 7,
+            "targetText": "does not cover information already publi",
+            "expected": {
+              "xPt": 72,
+              "yPt": 599
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 599
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 8,
+            "targetText": "6. Changes. A change to the scope, sched",
+            "expected": {
+              "xPt": 72,
+              "yPt": 566
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 566
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 9,
+            "targetText": "amendment approved by both parties.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 551
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 551
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 10,
+            "targetText": "Page 2 of 3",
+            "expected": {
+              "xPt": 489.1,
+              "yPt": 36
+            },
+            "actual": {
+              "xPt": 489.10499999999996,
+              "yPt": 36
+            },
+            "deltaPt": 0.004999999999938609,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 1,
+            "targetText": "Sample Service Agreement",
+            "expected": {
+              "xPt": 72,
+              "yPt": 728
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 728
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 2,
+            "targetText": "7. Ending the agreement. Either party ma",
+            "expected": {
+              "xPt": 72,
+              "yPt": 692
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 692
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 3,
+            "targetText": "if the other party materially breaches i",
+            "expected": {
+              "xPt": 72,
+              "yPt": 677
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 677
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 4,
+            "targetText": "stated cure period.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 662
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 662
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 5,
+            "targetText": "8. General terms. This fictional sample ",
+            "expected": {
+              "xPt": 72,
+              "yPt": 629
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 629
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 6,
+            "targetText": "paragraphs so that edits can be tested n",
+            "expected": {
+              "xPt": 72,
+              "yPt": 614
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 614
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 7,
+            "targetText": "and paragraph boundaries.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 599
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 599
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 8,
+            "targetText": "Provider signature: ____________________",
+            "expected": {
+              "xPt": 72,
+              "yPt": 566
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 566
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 9,
+            "targetText": "Page 3 of 3",
+            "expected": {
+              "xPt": 489.1,
+              "yPt": 36
+            },
+            "actual": {
+              "xPt": 489.10499999999996,
+              "yPt": 36
+            },
+            "deltaPt": 0.004999999999938609,
+            "passed": true,
+            "fontName": "g_d0_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          }
+        ]
+      },
+      "fonts": {
+        "originalFontNames": [
+          "g_d0_f3",
+          "g_d0_f4"
+        ],
+        "outputFont": "Helvetica",
+        "fallbackUsed": true,
+        "fallbackVisiblyFlagged": true,
+        "originalEmbeddedFontPreserved": false
+      },
+      "edit": {
+        "pageNumber": 1,
+        "targetText": "1. Parties and purpose. This sample agre",
+        "replacementText": "Revised sample",
+        "method": "Whiteout rectangle and drawn text overlay using pdf-lib",
+        "editBoxPt": {
+          "x": 72,
+          "y": 688.15,
+          "width": 450.4829105,
+          "height": 15.95,
+          "pageHeight": 792
+        },
+        "originalTextRemainsInOutputTextLayer": true,
+        "trueInPlaceReplacement": false
+      },
+      "reflow": {
+        "supported": false,
+        "test": "Single-line overlay under a deliberately overlong replacement string",
+        "replacementCharacters": 959,
+        "replacementWidthPt": 4580.862,
+        "availableColumnWidthPt": 468,
+        "overflowsColumn": true,
+        "overlapsNextColumn": false,
+        "passed": false,
+        "reason": "The candidate draws one line and has no paragraph-wrap or reflow operation."
+      },
+      "exportFidelity": {
+        "threshold": 0.005,
+        "maxDifferenceRatio": 0,
+        "allPagesPassed": true,
+        "pages": [
+          {
+            "pageNumber": 1,
+            "widthPx": 1275,
+            "heightPx": 1651,
+            "differentPixels": 0,
+            "comparedPixels": 2073099,
+            "differenceRatio": 0,
+            "passed": true,
+            "excludedEditBoxPt": {
+              "x": 72,
+              "y": 688.15,
+              "width": 450.4829105,
+              "height": 15.95,
+              "pageHeight": 792
+            }
+          },
+          {
+            "pageNumber": 2,
+            "widthPx": 1275,
+            "heightPx": 1651,
+            "differentPixels": 0,
+            "comparedPixels": 2105025,
+            "differenceRatio": 0,
+            "passed": true,
+            "excludedEditBoxPt": null
+          },
+          {
+            "pageNumber": 3,
+            "widthPx": 1275,
+            "heightPx": 1651,
+            "differentPixels": 0,
+            "comparedPixels": 2105025,
+            "differenceRatio": 0,
+            "passed": true,
+            "excludedEditBoxPt": null
+          }
+        ]
+      },
+      "criticalFailures": [
+        "Original text remains in the exported text layer; replacement is an overlay."
+      ]
+    },
+    {
+      "fixtureId": "POC-02",
+      "file": "fillable-form.pdf",
+      "pageCount": 2,
+      "inputSha256": "35961850430fc0420533351fdff0726e70483c9b11b4c5ff1e00a558aaf96da9",
+      "outputSha256": "90c5b61e7773eaa26705bc3c34e1fcf04641a7ec7b5bf0805fa80ef4749d339c",
+      "caret": {
+        "passed": 17,
+        "total": 17,
+        "ratio": 1,
+        "criterionPassed": true,
+        "samples": [
+          {
+            "sample": 1,
+            "targetText": "Project Intake Form",
+            "expected": {
+              "xPt": 72,
+              "yPt": 728
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 728
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d2_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 2,
+            "targetText": "This fictional form tests selectable exp",
+            "expected": {
+              "xPt": 72,
+              "yPt": 692
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 692
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 3,
+            "targetText": "handling. Enter sample values only.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 677
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 677
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 4,
+            "targetText": "Applicant name",
+            "expected": {
+              "xPt": 72,
+              "yPt": 647
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 647
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 5,
+            "targetText": "Project title",
+            "expected": {
+              "xPt": 72,
+              "yPt": 585
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 585
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 6,
+            "targetText": "Contact email",
+            "expected": {
+              "xPt": 72,
+              "yPt": 523
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 523
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 7,
+            "targetText": "Request type",
+            "expected": {
+              "xPt": 72,
+              "yPt": 461
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 461
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 8,
+            "targetText": "Standard",
+            "expected": {
+              "xPt": 94,
+              "yPt": 439
+            },
+            "actual": {
+              "xPt": 93.99749999999999,
+              "yPt": 439
+            },
+            "deltaPt": 0.002500000000011937,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 9,
+            "targetText": "Priority",
+            "expected": {
+              "xPt": 202,
+              "yPt": 439
+            },
+            "actual": {
+              "xPt": 202.01999999999998,
+              "yPt": 439
+            },
+            "deltaPt": 0.01999999999998181,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 10,
+            "targetText": "Page 1 of 2",
+            "expected": {
+              "xPt": 489.1,
+              "yPt": 36
+            },
+            "actual": {
+              "xPt": 489.10499999999996,
+              "yPt": 36
+            },
+            "deltaPt": 0.004999999999938609,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 1,
+            "targetText": "Project Intake Form - Terms",
+            "expected": {
+              "xPt": 72,
+              "yPt": 728
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 728
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d2_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 2,
+            "targetText": "The applicant confirms that the informat",
+            "expected": {
+              "xPt": 72,
+              "yPt": 692
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 692
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 3,
+            "targetText": "purpose of testing text placement and ex",
+            "expected": {
+              "xPt": 72,
+              "yPt": 677
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 677
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 4,
+            "targetText": "The reviewer may request clarification b",
+            "expected": {
+              "xPt": 72,
+              "yPt": 640
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 640
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 5,
+            "targetText": "business, or project is described in thi",
+            "expected": {
+              "xPt": 72,
+              "yPt": 625
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 625
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 6,
+            "targetText": "Reviewer notes: ________________________",
+            "expected": {
+              "xPt": 72,
+              "yPt": 588
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 588
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 7,
+            "targetText": "Page 2 of 2",
+            "expected": {
+              "xPt": 489.1,
+              "yPt": 36
+            },
+            "actual": {
+              "xPt": 489.10499999999996,
+              "yPt": 36
+            },
+            "deltaPt": 0.004999999999938609,
+            "passed": true,
+            "fontName": "g_d2_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          }
+        ]
+      },
+      "fonts": {
+        "originalFontNames": [
+          "g_d2_f3",
+          "g_d2_f4"
+        ],
+        "outputFont": "Helvetica",
+        "fallbackUsed": true,
+        "fallbackVisiblyFlagged": true,
+        "originalEmbeddedFontPreserved": false
+      },
+      "edit": {
+        "pageNumber": 1,
+        "targetText": "This fictional form tests selectable exp",
+        "replacementText": "Revised sample",
+        "method": "Whiteout rectangle and drawn text overlay using pdf-lib",
+        "editBoxPt": {
+          "x": 72,
+          "y": 688.15,
+          "width": 464.7753909,
+          "height": 15.95,
+          "pageHeight": 792
+        },
+        "originalTextRemainsInOutputTextLayer": true,
+        "trueInPlaceReplacement": false
+      },
+      "reflow": {
+        "supported": false,
+        "test": "Single-line overlay under a deliberately overlong replacement string",
+        "replacementCharacters": 959,
+        "replacementWidthPt": 4580.862,
+        "availableColumnWidthPt": 468,
+        "overflowsColumn": true,
+        "overlapsNextColumn": false,
+        "passed": false,
+        "reason": "The candidate draws one line and has no paragraph-wrap or reflow operation."
+      },
+      "exportFidelity": {
+        "threshold": 0.005,
+        "maxDifferenceRatio": 0,
+        "allPagesPassed": true,
+        "pages": [
+          {
+            "pageNumber": 1,
+            "widthPx": 1275,
+            "heightPx": 1651,
+            "differentPixels": 0,
+            "comparedPixels": 2072079,
+            "differenceRatio": 0,
+            "passed": true,
+            "excludedEditBoxPt": {
+              "x": 72,
+              "y": 688.15,
+              "width": 464.7753909,
+              "height": 15.95,
+              "pageHeight": 792
+            }
+          },
+          {
+            "pageNumber": 2,
+            "widthPx": 1275,
+            "heightPx": 1651,
+            "differentPixels": 0,
+            "comparedPixels": 2105025,
+            "differenceRatio": 0,
+            "passed": true,
+            "excludedEditBoxPt": null
+          }
+        ]
+      },
+      "criticalFailures": [
+        "Original text remains in the exported text layer; replacement is an overlay."
+      ]
+    },
+    {
+      "fixtureId": "POC-03",
+      "file": "multicolumn-report.pdf",
+      "pageCount": 4,
+      "inputSha256": "93ce2b1f2a9acb587994ad6a997461855165c586e2507534abcff16c7f232c3f",
+      "outputSha256": "7a5b8f8743fb9fc16e11a9a6d60528d7b96bf90baa3070a683f0c78f7f99d482",
+      "caret": {
+        "passed": 40,
+        "total": 40,
+        "ratio": 1,
+        "criterionPassed": true,
+        "samples": [
+          {
+            "sample": 1,
+            "targetText": "Quarterly Operations Report",
+            "expected": {
+              "xPt": 72,
+              "yPt": 728
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 728
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 2,
+            "targetText": "Findings. A text change should remain",
+            "expected": {
+              "xPt": 318,
+              "yPt": 692
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 692
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 3,
+            "targetText": "a fixed two-column layout to test edits ",
+            "expected": {
+              "xPt": 72,
+              "yPt": 678
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 678
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 4,
+            "targetText": "column edges and paragraph transitions.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 664
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 664
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 5,
+            "targetText": "second column.",
+            "expected": {
+              "xPt": 318,
+              "yPt": 650
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 650
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 6,
+            "targetText": "Method. Each section contains selectable",
+            "expected": {
+              "xPt": 72,
+              "yPt": 630
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 630
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 7,
+            "targetText": "Next steps. Review the exported page at",
+            "expected": {
+              "xPt": 318,
+              "yPt": 616
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 616
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 8,
+            "targetText": "the same scale as the source and record",
+            "expected": {
+              "xPt": 318,
+              "yPt": 602
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 602
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 9,
+            "targetText": "independent.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 588
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 588
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 10,
+            "targetText": "Page 1 of 4",
+            "expected": {
+              "xPt": 489.1,
+              "yPt": 36
+            },
+            "actual": {
+              "xPt": 489.10499999999996,
+              "yPt": 36
+            },
+            "deltaPt": 0.004999999999938609,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 1,
+            "targetText": "Quarterly Operations Report",
+            "expected": {
+              "xPt": 72,
+              "yPt": 728
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 728
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 2,
+            "targetText": "Findings. A text change should remain",
+            "expected": {
+              "xPt": 318,
+              "yPt": 692
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 692
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 3,
+            "targetText": "a fixed two-column layout to test edits ",
+            "expected": {
+              "xPt": 72,
+              "yPt": 678
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 678
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 4,
+            "targetText": "column edges and paragraph transitions.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 664
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 664
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 5,
+            "targetText": "second column.",
+            "expected": {
+              "xPt": 318,
+              "yPt": 650
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 650
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 6,
+            "targetText": "Method. Each section contains selectable",
+            "expected": {
+              "xPt": 72,
+              "yPt": 630
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 630
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 7,
+            "targetText": "Next steps. Review the exported page at",
+            "expected": {
+              "xPt": 318,
+              "yPt": 616
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 616
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 8,
+            "targetText": "the same scale as the source and record",
+            "expected": {
+              "xPt": 318,
+              "yPt": 602
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 602
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 9,
+            "targetText": "independent.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 588
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 588
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 10,
+            "targetText": "Page 2 of 4",
+            "expected": {
+              "xPt": 489.1,
+              "yPt": 36
+            },
+            "actual": {
+              "xPt": 489.10499999999996,
+              "yPt": 36
+            },
+            "deltaPt": 0.004999999999938609,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 1,
+            "targetText": "Quarterly Operations Report",
+            "expected": {
+              "xPt": 72,
+              "yPt": 728
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 728
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 2,
+            "targetText": "Findings. A text change should remain",
+            "expected": {
+              "xPt": 318,
+              "yPt": 692
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 692
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 3,
+            "targetText": "a fixed two-column layout to test edits ",
+            "expected": {
+              "xPt": 72,
+              "yPt": 678
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 678
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 4,
+            "targetText": "column edges and paragraph transitions.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 664
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 664
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 5,
+            "targetText": "second column.",
+            "expected": {
+              "xPt": 318,
+              "yPt": 650
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 650
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 6,
+            "targetText": "Method. Each section contains selectable",
+            "expected": {
+              "xPt": 72,
+              "yPt": 630
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 630
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 7,
+            "targetText": "Next steps. Review the exported page at",
+            "expected": {
+              "xPt": 318,
+              "yPt": 616
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 616
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 8,
+            "targetText": "the same scale as the source and record",
+            "expected": {
+              "xPt": 318,
+              "yPt": 602
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 602
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 9,
+            "targetText": "independent.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 588
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 588
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 10,
+            "targetText": "Page 3 of 4",
+            "expected": {
+              "xPt": 489.1,
+              "yPt": 36
+            },
+            "actual": {
+              "xPt": 489.10499999999996,
+              "yPt": 36
+            },
+            "deltaPt": 0.004999999999938609,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 1,
+            "targetText": "Quarterly Operations Report",
+            "expected": {
+              "xPt": 72,
+              "yPt": 728
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 728
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 2,
+            "targetText": "Findings. A text change should remain",
+            "expected": {
+              "xPt": 318,
+              "yPt": 692
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 692
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 3,
+            "targetText": "a fixed two-column layout to test edits ",
+            "expected": {
+              "xPt": 72,
+              "yPt": 678
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 678
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 4,
+            "targetText": "column edges and paragraph transitions.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 664
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 664
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 5,
+            "targetText": "second column.",
+            "expected": {
+              "xPt": 318,
+              "yPt": 650
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 650
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 6,
+            "targetText": "Method. Each section contains selectable",
+            "expected": {
+              "xPt": 72,
+              "yPt": 630
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 630
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 7,
+            "targetText": "Next steps. Review the exported page at",
+            "expected": {
+              "xPt": 318,
+              "yPt": 616
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 616
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 8,
+            "targetText": "the same scale as the source and record",
+            "expected": {
+              "xPt": 318,
+              "yPt": 602
+            },
+            "actual": {
+              "xPt": 317.99249999999995,
+              "yPt": 602
+            },
+            "deltaPt": 0.007500000000050022,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 9,
+            "targetText": "independent.",
+            "expected": {
+              "xPt": 72,
+              "yPt": 588
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 588
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 10,
+            "targetText": "Page 4 of 4",
+            "expected": {
+              "xPt": 489.1,
+              "yPt": 36
+            },
+            "actual": {
+              "xPt": 489.10499999999996,
+              "yPt": 36
+            },
+            "deltaPt": 0.004999999999938609,
+            "passed": true,
+            "fontName": "g_d4_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          }
+        ]
+      },
+      "fonts": {
+        "originalFontNames": [
+          "g_d4_f3",
+          "g_d4_f4"
+        ],
+        "outputFont": "Helvetica",
+        "fallbackUsed": true,
+        "fallbackVisiblyFlagged": true,
+        "originalEmbeddedFontPreserved": false
+      },
+      "edit": {
+        "pageNumber": 1,
+        "targetText": "Findings. A text change should remain",
+        "replacementText": "Revised sample",
+        "method": "Whiteout rectangle and drawn text overlay using pdf-lib",
+        "editBoxPt": {
+          "x": 318,
+          "y": 688.5,
+          "width": 196.89550900000015,
+          "height": 14.5,
+          "pageHeight": 792
+        },
+        "originalTextRemainsInOutputTextLayer": true,
+        "trueInPlaceReplacement": false
+      },
+      "reflow": {
+        "supported": false,
+        "test": "Single-line overlay under a deliberately overlong replacement string",
+        "replacementCharacters": 959,
+        "replacementWidthPt": 4164.42,
+        "availableColumnWidthPt": 222,
+        "overflowsColumn": true,
+        "overlapsNextColumn": false,
+        "passed": false,
+        "reason": "The candidate draws one line and has no paragraph-wrap or reflow operation."
+      },
+      "exportFidelity": {
+        "threshold": 0.005,
+        "maxDifferenceRatio": 0,
+        "allPagesPassed": true,
+        "pages": [
+          {
+            "pageNumber": 1,
+            "widthPx": 1275,
+            "heightPx": 1651,
+            "differentPixels": 0,
+            "comparedPixels": 2092284,
+            "differenceRatio": 0,
+            "passed": true,
+            "excludedEditBoxPt": {
+              "x": 318,
+              "y": 688.5,
+              "width": 196.89550900000015,
+              "height": 14.5,
+              "pageHeight": 792
+            }
+          },
+          {
+            "pageNumber": 2,
+            "widthPx": 1275,
+            "heightPx": 1651,
+            "differentPixels": 0,
+            "comparedPixels": 2105025,
+            "differenceRatio": 0,
+            "passed": true,
+            "excludedEditBoxPt": null
+          },
+          {
+            "pageNumber": 3,
+            "widthPx": 1275,
+            "heightPx": 1651,
+            "differentPixels": 0,
+            "comparedPixels": 2105025,
+            "differenceRatio": 0,
+            "passed": true,
+            "excludedEditBoxPt": null
+          },
+          {
+            "pageNumber": 4,
+            "widthPx": 1275,
+            "heightPx": 1651,
+            "differentPixels": 0,
+            "comparedPixels": 2105025,
+            "differenceRatio": 0,
+            "passed": true,
+            "excludedEditBoxPt": null
+          }
+        ]
+      },
+      "criticalFailures": [
+        "Original text remains in the exported text layer; replacement is an overlay."
+      ]
+    },
+    {
+      "fixtureId": "POC-04",
+      "file": "embedded-font-specimen.pdf",
+      "pageCount": 2,
+      "inputSha256": "4c9b8dddeabe32e6db7a7d255e898804ae2cf6b845c69d5e9817344a77af2153",
+      "outputSha256": "eabc04162cb558664c13345ed75da05b42c63e6bcf99037dbf496f3fcde62113",
+      "caret": {
+        "passed": 20,
+        "total": 20,
+        "ratio": 1,
+        "criterionPassed": true,
+        "samples": [
+          {
+            "sample": 1,
+            "targetText": "Embedded Font Specimen",
+            "expected": {
+              "xPt": 72,
+              "yPt": 728
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 728
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 2,
+            "targetText": "Vera regular 10: AV To Wa fi fl punctuat",
+            "expected": {
+              "xPt": 72,
+              "yPt": 692
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 692
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 3,
+            "targetText": "Vera bold 10: AV To Wa fi fl punctuation",
+            "expected": {
+              "xPt": 72,
+              "yPt": 670
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 670
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 4,
+            "targetText": "Vera bold 12: AV To Wa fi fl punctuation",
+            "expected": {
+              "xPt": 72,
+              "yPt": 616
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 616
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 5,
+            "targetText": "Vera regular 16: AV To Wa fi fl punctuat",
+            "expected": {
+              "xPt": 72,
+              "yPt": 584
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 584
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 6,
+            "targetText": "Vera bold 16: AV To Wa fi fl punctuation",
+            "expected": {
+              "xPt": 72,
+              "yPt": 556
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 556
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 7,
+            "targetText": "Vera regular 22: AV To Wa fi fl punctuat",
+            "expected": {
+              "xPt": 72,
+              "yPt": 520
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 520
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 8,
+            "targetText": "This specimen tests embedded font resour",
+            "expected": {
+              "xPt": 72,
+              "yPt": 444
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 444
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 9,
+            "targetText": "short text runs. The strings are origina",
+            "expected": {
+              "xPt": 72,
+              "yPt": 429
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 429
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 10,
+            "targetText": "Page 1 of 2",
+            "expected": {
+              "xPt": 489.1,
+              "yPt": 36
+            },
+            "actual": {
+              "xPt": 489.10499999999996,
+              "yPt": 36
+            },
+            "deltaPt": 0.004999999999938609,
+            "passed": true,
+            "fontName": "g_d6_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 1,
+            "targetText": "Embedded Font Specimen",
+            "expected": {
+              "xPt": 72,
+              "yPt": 728
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 728
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 2,
+            "targetText": "Vera regular 10: AV To Wa fi fl punctuat",
+            "expected": {
+              "xPt": 72,
+              "yPt": 692
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 692
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 3,
+            "targetText": "Vera bold 10: AV To Wa fi fl punctuation",
+            "expected": {
+              "xPt": 72,
+              "yPt": 670
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 670
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 4,
+            "targetText": "Vera bold 12: AV To Wa fi fl punctuation",
+            "expected": {
+              "xPt": 72,
+              "yPt": 616
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 616
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 5,
+            "targetText": "Vera regular 16: AV To Wa fi fl punctuat",
+            "expected": {
+              "xPt": 72,
+              "yPt": 584
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 584
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 6,
+            "targetText": "Vera bold 16: AV To Wa fi fl punctuation",
+            "expected": {
+              "xPt": 72,
+              "yPt": 556
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 556
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 7,
+            "targetText": "Vera regular 22: AV To Wa fi fl punctuat",
+            "expected": {
+              "xPt": 72,
+              "yPt": 520
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 520
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 8,
+            "targetText": "This specimen tests embedded font resour",
+            "expected": {
+              "xPt": 72,
+              "yPt": 444
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 444
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 9,
+            "targetText": "short text runs. The strings are origina",
+            "expected": {
+              "xPt": 72,
+              "yPt": 429
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 429
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d6_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 10,
+            "targetText": "Page 2 of 2",
+            "expected": {
+              "xPt": 489.1,
+              "yPt": 36
+            },
+            "actual": {
+              "xPt": 489.10499999999996,
+              "yPt": 36
+            },
+            "deltaPt": 0.004999999999938609,
+            "passed": true,
+            "fontName": "g_d6_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          }
+        ]
+      },
+      "fonts": {
+        "originalFontNames": [
+          "g_d6_f3",
+          "g_d6_f4"
+        ],
+        "outputFont": "Helvetica",
+        "fallbackUsed": true,
+        "fallbackVisiblyFlagged": true,
+        "originalEmbeddedFontPreserved": false
+      },
+      "edit": {
+        "pageNumber": 1,
+        "targetText": "Vera regular 10: AV To Wa fi fl punctuat",
+        "replacementText": "Revised sample",
+        "method": "Whiteout rectangle and drawn text overlay using pdf-lib",
+        "editBoxPt": {
+          "x": 72,
+          "y": 688.5,
+          "width": 289.28809,
+          "height": 14.5,
+          "pageHeight": 792
+        },
+        "originalTextRemainsInOutputTextLayer": true,
+        "trueInPlaceReplacement": false
+      },
+      "reflow": {
+        "supported": false,
+        "test": "Single-line overlay under a deliberately overlong replacement string",
+        "replacementCharacters": 959,
+        "replacementWidthPt": 4164.42,
+        "availableColumnWidthPt": 468,
+        "overflowsColumn": true,
+        "overlapsNextColumn": false,
+        "passed": false,
+        "reason": "The candidate draws one line and has no paragraph-wrap or reflow operation."
+      },
+      "exportFidelity": {
+        "threshold": 0.005,
+        "maxDifferenceRatio": 0,
+        "allPagesPassed": true,
+        "pages": [
+          {
+            "pageNumber": 1,
+            "widthPx": 1275,
+            "heightPx": 1651,
+            "differentPixels": 0,
+            "comparedPixels": 2086332,
+            "differenceRatio": 0,
+            "passed": true,
+            "excludedEditBoxPt": {
+              "x": 72,
+              "y": 688.5,
+              "width": 289.28809,
+              "height": 14.5,
+              "pageHeight": 792
+            }
+          },
+          {
+            "pageNumber": 2,
+            "widthPx": 1275,
+            "heightPx": 1651,
+            "differentPixels": 0,
+            "comparedPixels": 2105025,
+            "differenceRatio": 0,
+            "passed": true,
+            "excludedEditBoxPt": null
+          }
+        ]
+      },
+      "criticalFailures": [
+        "Original text remains in the exported text layer; replacement is an overlay."
+      ]
+    },
+    {
+      "fixtureId": "POC-05",
+      "file": "single-column-reference.pdf",
+      "pageCount": 2,
+      "inputSha256": "298e0bf22dab356cd632122c25631583fc08cda5bfcb14904d88ee45933e7e70",
+      "outputSha256": "c3765cc949e23030ce7f7a406e5bed73c68f7f914728bd8078c7138c0c830782",
+      "caret": {
+        "passed": 16,
+        "total": 16,
+        "ratio": 1,
+        "criterionPassed": true,
+        "samples": [
+          {
+            "sample": 1,
+            "targetText": "Single Column Reference",
+            "expected": {
+              "xPt": 72,
+              "yPt": 728
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 728
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 2,
+            "targetText": "Short baseline line for testing the firs",
+            "expected": {
+              "xPt": 72,
+              "yPt": 692
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 692
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 3,
+            "targetText": "This longer paragraph contains repeated ",
+            "expected": {
+              "xPt": 72,
+              "yPt": 653
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 653
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 4,
+            "targetText": "provides several stable points for caret",
+            "expected": {
+              "xPt": 72,
+              "yPt": 638
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 638
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 5,
+            "targetText": "compared with unaffected content on the ",
+            "expected": {
+              "xPt": 72,
+              "yPt": 623
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 623
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 6,
+            "targetText": "Final paragraph. A change here must not ",
+            "expected": {
+              "xPt": 72,
+              "yPt": 584
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 584
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 7,
+            "targetText": "and the exported document must remain re",
+            "expected": {
+              "xPt": 72,
+              "yPt": 569
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 569
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 8,
+            "targetText": "Page 1 of 2",
+            "expected": {
+              "xPt": 489.1,
+              "yPt": 36
+            },
+            "actual": {
+              "xPt": 489.10499999999996,
+              "yPt": 36
+            },
+            "deltaPt": 0.004999999999938609,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 1,
+            "targetText": "Single Column Reference",
+            "expected": {
+              "xPt": 72,
+              "yPt": 728
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 728
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f3",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 2,
+            "targetText": "Short baseline line for testing the firs",
+            "expected": {
+              "xPt": 72,
+              "yPt": 692
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 692
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 3,
+            "targetText": "This longer paragraph contains repeated ",
+            "expected": {
+              "xPt": 72,
+              "yPt": 653
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 653
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 4,
+            "targetText": "provides several stable points for caret",
+            "expected": {
+              "xPt": 72,
+              "yPt": 638
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 638
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 5,
+            "targetText": "compared with unaffected content on the ",
+            "expected": {
+              "xPt": 72,
+              "yPt": 623
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 623
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 6,
+            "targetText": "Final paragraph. A change here must not ",
+            "expected": {
+              "xPt": 72,
+              "yPt": 584
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 584
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 7,
+            "targetText": "and the exported document must remain re",
+            "expected": {
+              "xPt": 72,
+              "yPt": 569
+            },
+            "actual": {
+              "xPt": 71.97,
+              "yPt": 569
+            },
+            "deltaPt": 0.030000000000001137,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          },
+          {
+            "sample": 8,
+            "targetText": "Page 2 of 2",
+            "expected": {
+              "xPt": 489.1,
+              "yPt": 36
+            },
+            "actual": {
+              "xPt": 489.10499999999996,
+              "yPt": 36
+            },
+            "deltaPt": 0.004999999999938609,
+            "passed": true,
+            "fontName": "g_d8_f4",
+            "fontFamily": "sans-serif",
+            "measurement": "First-glyph DOM range x; PDF.js text-item baseline y"
+          }
+        ]
+      },
+      "fonts": {
+        "originalFontNames": [
+          "g_d8_f3",
+          "g_d8_f4"
+        ],
+        "outputFont": "Helvetica",
+        "fallbackUsed": true,
+        "fallbackVisiblyFlagged": true,
+        "originalEmbeddedFontPreserved": false
+      },
+      "edit": {
+        "pageNumber": 1,
+        "targetText": "Short baseline line for testing the firs",
+        "replacementText": "Revised sample",
+        "method": "Whiteout rectangle and drawn text overlay using pdf-lib",
+        "editBoxPt": {
+          "x": 72,
+          "y": 688.15,
+          "width": 402.0034201000001,
+          "height": 15.95,
+          "pageHeight": 792
+        },
+        "originalTextRemainsInOutputTextLayer": true,
+        "trueInPlaceReplacement": false
+      },
+      "reflow": {
+        "supported": false,
+        "test": "Single-line overlay under a deliberately overlong replacement string",
+        "replacementCharacters": 959,
+        "replacementWidthPt": 4580.862,
+        "availableColumnWidthPt": 468,
+        "overflowsColumn": true,
+        "overlapsNextColumn": false,
+        "passed": false,
+        "reason": "The candidate draws one line and has no paragraph-wrap or reflow operation."
+      },
+      "exportFidelity": {
+        "threshold": 0.005,
+        "maxDifferenceRatio": 0,
+        "allPagesPassed": true,
+        "pages": [
+          {
+            "pageNumber": 1,
+            "widthPx": 1275,
+            "heightPx": 1651,
+            "differentPixels": 0,
+            "comparedPixels": 2076533,
+            "differenceRatio": 0,
+            "passed": true,
+            "excludedEditBoxPt": {
+              "x": 72,
+              "y": 688.15,
+              "width": 402.0034201000001,
+              "height": 15.95,
+              "pageHeight": 792
+            }
+          },
+          {
+            "pageNumber": 2,
+            "widthPx": 1275,
+            "heightPx": 1651,
+            "differentPixels": 0,
+            "comparedPixels": 2105025,
+            "differenceRatio": 0,
+            "passed": true,
+            "excludedEditBoxPt": null
+          }
+        ]
+      },
+      "criticalFailures": [
+        "Original text remains in the exported text layer; replacement is an overlay."
+      ]
+    }
+  ],
+  "overall": {
+    "decision": "INVALID ENVIRONMENT",
+    "reason": "Reference browser build, viewport, or device scale differs from the frozen protocol."
+  }
+}

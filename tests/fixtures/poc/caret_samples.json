@@ -1,0 +1,1045 @@
+{
+  "contract-standard.pdf": [
+    {
+      "page": 1,
+      "samples": [
+        {
+          "sample": 1,
+          "kind": "run_start",
+          "target_text": "Sample Service Agreement",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 728.0,
+          "font_size_pt": 18.0
+        },
+        {
+          "sample": 2,
+          "kind": "run_start",
+          "target_text": "1. Parties and purpose. This sample agre",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 692.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 3,
+          "kind": "run_start",
+          "target_text": "selectable text, paragraph boundaries, a",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 677.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 4,
+          "kind": "run_start",
+          "target_text": "2. Services. The provider will perform t",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 644.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 5,
+          "kind": "run_start",
+          "target_text": "of work. Each statement will identify th",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 629.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 6,
+          "kind": "run_start",
+          "target_text": "and the contacts responsible for review.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 614.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 7,
+          "kind": "run_start",
+          "target_text": "3. Term. This agreement begins on the da",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 581.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 8,
+          "kind": "run_start",
+          "target_text": "until ended under its terms. A renewal r",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 566.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 9,
+          "kind": "run_start",
+          "target_text": "Page 1 of 3",
+          "expected_x_pt": 489.1,
+          "expected_y_pt": 36.0,
+          "font_size_pt": 9.0
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "samples": [
+        {
+          "sample": 1,
+          "kind": "run_start",
+          "target_text": "Sample Service Agreement",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 728.0,
+          "font_size_pt": 18.0
+        },
+        {
+          "sample": 2,
+          "kind": "run_start",
+          "target_text": "4. Fees and records. The customer will p",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 692.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 3,
+          "kind": "run_start",
+          "target_text": "statement of work. Each party will keep ",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 677.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 4,
+          "kind": "run_start",
+          "target_text": "performance and payment.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 662.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 5,
+          "kind": "run_start",
+          "target_text": "5. Confidential information. A receiving",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 629.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 6,
+          "kind": "run_start",
+          "target_text": "confidential information and will use it",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 614.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 7,
+          "kind": "run_start",
+          "target_text": "does not cover information already publi",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 599.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 8,
+          "kind": "run_start",
+          "target_text": "6. Changes. A change to the scope, sched",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 566.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 9,
+          "kind": "run_start",
+          "target_text": "amendment approved by both parties.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 551.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 10,
+          "kind": "run_start",
+          "target_text": "Page 2 of 3",
+          "expected_x_pt": 489.1,
+          "expected_y_pt": 36.0,
+          "font_size_pt": 9.0
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "samples": [
+        {
+          "sample": 1,
+          "kind": "run_start",
+          "target_text": "Sample Service Agreement",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 728.0,
+          "font_size_pt": 18.0
+        },
+        {
+          "sample": 2,
+          "kind": "run_start",
+          "target_text": "7. Ending the agreement. Either party ma",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 692.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 3,
+          "kind": "run_start",
+          "target_text": "if the other party materially breaches i",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 677.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 4,
+          "kind": "run_start",
+          "target_text": "stated cure period.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 662.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 5,
+          "kind": "run_start",
+          "target_text": "8. General terms. This fictional sample ",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 629.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 6,
+          "kind": "run_start",
+          "target_text": "paragraphs so that edits can be tested n",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 614.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 7,
+          "kind": "run_start",
+          "target_text": "and paragraph boundaries.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 599.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 8,
+          "kind": "run_start",
+          "target_text": "Provider signature: ____________________",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 566.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 9,
+          "kind": "run_start",
+          "target_text": "Page 3 of 3",
+          "expected_x_pt": 489.1,
+          "expected_y_pt": 36.0,
+          "font_size_pt": 9.0
+        }
+      ]
+    }
+  ],
+  "embedded-font-specimen.pdf": [
+    {
+      "page": 1,
+      "samples": [
+        {
+          "sample": 1,
+          "kind": "run_start",
+          "target_text": "Embedded Font Specimen",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 728.0,
+          "font_size_pt": 18.0
+        },
+        {
+          "sample": 2,
+          "kind": "run_start",
+          "target_text": "Vera regular 10: AV To Wa fi fl punctuat",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 692.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 3,
+          "kind": "run_start",
+          "target_text": "Vera bold 10: AV To Wa fi fl punctuation",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 670.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 4,
+          "kind": "run_start",
+          "target_text": "Vera bold 12: AV To Wa fi fl punctuation",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 616.0,
+          "font_size_pt": 12.0
+        },
+        {
+          "sample": 5,
+          "kind": "run_start",
+          "target_text": "Vera regular 16: AV To Wa fi fl punctuat",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 584.0,
+          "font_size_pt": 16.0
+        },
+        {
+          "sample": 6,
+          "kind": "run_start",
+          "target_text": "Vera bold 16: AV To Wa fi fl punctuation",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 556.0,
+          "font_size_pt": 16.0
+        },
+        {
+          "sample": 7,
+          "kind": "run_start",
+          "target_text": "Vera regular 22: AV To Wa fi fl punctuat",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 520.0,
+          "font_size_pt": 22.0
+        },
+        {
+          "sample": 8,
+          "kind": "run_start",
+          "target_text": "This specimen tests embedded font resour",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 444.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 9,
+          "kind": "run_start",
+          "target_text": "short text runs. The strings are origina",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 429.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 10,
+          "kind": "run_start",
+          "target_text": "Page 1 of 2",
+          "expected_x_pt": 489.1,
+          "expected_y_pt": 36.0,
+          "font_size_pt": 9.0
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "samples": [
+        {
+          "sample": 1,
+          "kind": "run_start",
+          "target_text": "Embedded Font Specimen",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 728.0,
+          "font_size_pt": 18.0
+        },
+        {
+          "sample": 2,
+          "kind": "run_start",
+          "target_text": "Vera regular 10: AV To Wa fi fl punctuat",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 692.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 3,
+          "kind": "run_start",
+          "target_text": "Vera bold 10: AV To Wa fi fl punctuation",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 670.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 4,
+          "kind": "run_start",
+          "target_text": "Vera bold 12: AV To Wa fi fl punctuation",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 616.0,
+          "font_size_pt": 12.0
+        },
+        {
+          "sample": 5,
+          "kind": "run_start",
+          "target_text": "Vera regular 16: AV To Wa fi fl punctuat",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 584.0,
+          "font_size_pt": 16.0
+        },
+        {
+          "sample": 6,
+          "kind": "run_start",
+          "target_text": "Vera bold 16: AV To Wa fi fl punctuation",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 556.0,
+          "font_size_pt": 16.0
+        },
+        {
+          "sample": 7,
+          "kind": "run_start",
+          "target_text": "Vera regular 22: AV To Wa fi fl punctuat",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 520.0,
+          "font_size_pt": 22.0
+        },
+        {
+          "sample": 8,
+          "kind": "run_start",
+          "target_text": "This specimen tests embedded font resour",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 444.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 9,
+          "kind": "run_start",
+          "target_text": "short text runs. The strings are origina",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 429.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 10,
+          "kind": "run_start",
+          "target_text": "Page 2 of 2",
+          "expected_x_pt": 489.1,
+          "expected_y_pt": 36.0,
+          "font_size_pt": 9.0
+        }
+      ]
+    }
+  ],
+  "fillable-form.pdf": [
+    {
+      "page": 1,
+      "samples": [
+        {
+          "sample": 1,
+          "kind": "run_start",
+          "target_text": "Project Intake Form",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 728.0,
+          "font_size_pt": 18.0
+        },
+        {
+          "sample": 2,
+          "kind": "run_start",
+          "target_text": "This fictional form tests selectable exp",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 692.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 3,
+          "kind": "run_start",
+          "target_text": "handling. Enter sample values only.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 677.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 4,
+          "kind": "run_start",
+          "target_text": "Applicant name",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 647.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 5,
+          "kind": "run_start",
+          "target_text": "Project title",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 585.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 6,
+          "kind": "run_start",
+          "target_text": "Contact email",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 523.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 7,
+          "kind": "run_start",
+          "target_text": "Request type",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 461.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 8,
+          "kind": "run_start",
+          "target_text": "Standard",
+          "expected_x_pt": 94.0,
+          "expected_y_pt": 439.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 9,
+          "kind": "run_start",
+          "target_text": "Priority",
+          "expected_x_pt": 202.0,
+          "expected_y_pt": 439.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 10,
+          "kind": "run_start",
+          "target_text": "Page 1 of 2",
+          "expected_x_pt": 489.1,
+          "expected_y_pt": 36.0,
+          "font_size_pt": 9.0
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "samples": [
+        {
+          "sample": 1,
+          "kind": "run_start",
+          "target_text": "Project Intake Form - Terms",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 728.0,
+          "font_size_pt": 18.0
+        },
+        {
+          "sample": 2,
+          "kind": "run_start",
+          "target_text": "The applicant confirms that the informat",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 692.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 3,
+          "kind": "run_start",
+          "target_text": "purpose of testing text placement and ex",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 677.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 4,
+          "kind": "run_start",
+          "target_text": "The reviewer may request clarification b",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 640.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 5,
+          "kind": "run_start",
+          "target_text": "business, or project is described in thi",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 625.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 6,
+          "kind": "run_start",
+          "target_text": "Reviewer notes: ________________________",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 588.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 7,
+          "kind": "run_start",
+          "target_text": "Page 2 of 2",
+          "expected_x_pt": 489.1,
+          "expected_y_pt": 36.0,
+          "font_size_pt": 9.0
+        }
+      ]
+    }
+  ],
+  "multicolumn-report.pdf": [
+    {
+      "page": 1,
+      "samples": [
+        {
+          "sample": 1,
+          "kind": "run_start",
+          "target_text": "Quarterly Operations Report",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 728.0,
+          "font_size_pt": 18.0
+        },
+        {
+          "sample": 2,
+          "kind": "run_start",
+          "target_text": "Findings. A text change should remain",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 692.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 3,
+          "kind": "run_start",
+          "target_text": "a fixed two-column layout to test edits ",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 678.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 4,
+          "kind": "run_start",
+          "target_text": "column edges and paragraph transitions.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 664.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 5,
+          "kind": "run_start",
+          "target_text": "second column.",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 650.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 6,
+          "kind": "run_start",
+          "target_text": "Method. Each section contains selectable",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 630.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 7,
+          "kind": "run_start",
+          "target_text": "Next steps. Review the exported page at",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 616.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 8,
+          "kind": "run_start",
+          "target_text": "the same scale as the source and record",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 602.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 9,
+          "kind": "run_start",
+          "target_text": "independent.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 588.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 10,
+          "kind": "run_start",
+          "target_text": "Page 1 of 4",
+          "expected_x_pt": 489.1,
+          "expected_y_pt": 36.0,
+          "font_size_pt": 9.0
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "samples": [
+        {
+          "sample": 1,
+          "kind": "run_start",
+          "target_text": "Quarterly Operations Report",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 728.0,
+          "font_size_pt": 18.0
+        },
+        {
+          "sample": 2,
+          "kind": "run_start",
+          "target_text": "Findings. A text change should remain",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 692.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 3,
+          "kind": "run_start",
+          "target_text": "a fixed two-column layout to test edits ",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 678.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 4,
+          "kind": "run_start",
+          "target_text": "column edges and paragraph transitions.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 664.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 5,
+          "kind": "run_start",
+          "target_text": "second column.",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 650.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 6,
+          "kind": "run_start",
+          "target_text": "Method. Each section contains selectable",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 630.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 7,
+          "kind": "run_start",
+          "target_text": "Next steps. Review the exported page at",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 616.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 8,
+          "kind": "run_start",
+          "target_text": "the same scale as the source and record",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 602.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 9,
+          "kind": "run_start",
+          "target_text": "independent.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 588.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 10,
+          "kind": "run_start",
+          "target_text": "Page 2 of 4",
+          "expected_x_pt": 489.1,
+          "expected_y_pt": 36.0,
+          "font_size_pt": 9.0
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "samples": [
+        {
+          "sample": 1,
+          "kind": "run_start",
+          "target_text": "Quarterly Operations Report",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 728.0,
+          "font_size_pt": 18.0
+        },
+        {
+          "sample": 2,
+          "kind": "run_start",
+          "target_text": "Findings. A text change should remain",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 692.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 3,
+          "kind": "run_start",
+          "target_text": "a fixed two-column layout to test edits ",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 678.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 4,
+          "kind": "run_start",
+          "target_text": "column edges and paragraph transitions.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 664.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 5,
+          "kind": "run_start",
+          "target_text": "second column.",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 650.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 6,
+          "kind": "run_start",
+          "target_text": "Method. Each section contains selectable",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 630.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 7,
+          "kind": "run_start",
+          "target_text": "Next steps. Review the exported page at",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 616.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 8,
+          "kind": "run_start",
+          "target_text": "the same scale as the source and record",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 602.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 9,
+          "kind": "run_start",
+          "target_text": "independent.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 588.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 10,
+          "kind": "run_start",
+          "target_text": "Page 3 of 4",
+          "expected_x_pt": 489.1,
+          "expected_y_pt": 36.0,
+          "font_size_pt": 9.0
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "samples": [
+        {
+          "sample": 1,
+          "kind": "run_start",
+          "target_text": "Quarterly Operations Report",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 728.0,
+          "font_size_pt": 18.0
+        },
+        {
+          "sample": 2,
+          "kind": "run_start",
+          "target_text": "Findings. A text change should remain",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 692.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 3,
+          "kind": "run_start",
+          "target_text": "a fixed two-column layout to test edits ",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 678.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 4,
+          "kind": "run_start",
+          "target_text": "column edges and paragraph transitions.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 664.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 5,
+          "kind": "run_start",
+          "target_text": "second column.",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 650.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 6,
+          "kind": "run_start",
+          "target_text": "Method. Each section contains selectable",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 630.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 7,
+          "kind": "run_start",
+          "target_text": "Next steps. Review the exported page at",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 616.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 8,
+          "kind": "run_start",
+          "target_text": "the same scale as the source and record",
+          "expected_x_pt": 318.0,
+          "expected_y_pt": 602.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 9,
+          "kind": "run_start",
+          "target_text": "independent.",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 588.0,
+          "font_size_pt": 10.0
+        },
+        {
+          "sample": 10,
+          "kind": "run_start",
+          "target_text": "Page 4 of 4",
+          "expected_x_pt": 489.1,
+          "expected_y_pt": 36.0,
+          "font_size_pt": 9.0
+        }
+      ]
+    }
+  ],
+  "single-column-reference.pdf": [
+    {
+      "page": 1,
+      "samples": [
+        {
+          "sample": 1,
+          "kind": "run_start",
+          "target_text": "Single Column Reference",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 728.0,
+          "font_size_pt": 18.0
+        },
+        {
+          "sample": 2,
+          "kind": "run_start",
+          "target_text": "Short baseline line for testing the firs",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 692.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 3,
+          "kind": "run_start",
+          "target_text": "This longer paragraph contains repeated ",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 653.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 4,
+          "kind": "run_start",
+          "target_text": "provides several stable points for caret",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 638.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 5,
+          "kind": "run_start",
+          "target_text": "compared with unaffected content on the ",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 623.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 6,
+          "kind": "run_start",
+          "target_text": "Final paragraph. A change here must not ",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 584.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 7,
+          "kind": "run_start",
+          "target_text": "and the exported document must remain re",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 569.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 8,
+          "kind": "run_start",
+          "target_text": "Page 1 of 2",
+          "expected_x_pt": 489.1,
+          "expected_y_pt": 36.0,
+          "font_size_pt": 9.0
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "samples": [
+        {
+          "sample": 1,
+          "kind": "run_start",
+          "target_text": "Single Column Reference",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 728.0,
+          "font_size_pt": 18.0
+        },
+        {
+          "sample": 2,
+          "kind": "run_start",
+          "target_text": "Short baseline line for testing the firs",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 692.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 3,
+          "kind": "run_start",
+          "target_text": "This longer paragraph contains repeated ",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 653.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 4,
+          "kind": "run_start",
+          "target_text": "provides several stable points for caret",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 638.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 5,
+          "kind": "run_start",
+          "target_text": "compared with unaffected content on the ",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 623.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 6,
+          "kind": "run_start",
+          "target_text": "Final paragraph. A change here must not ",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 584.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 7,
+          "kind": "run_start",
+          "target_text": "and the exported document must remain re",
+          "expected_x_pt": 72.0,
+          "expected_y_pt": 569.0,
+          "font_size_pt": 11.0
+        },
+        {
+          "sample": 8,
+          "kind": "run_start",
+          "target_text": "Page 2 of 2",
+          "expected_x_pt": 489.1,
+          "expected_y_pt": 36.0,
+          "font_size_pt": 9.0
+        }
+      ]
+    }
+  ]
+}

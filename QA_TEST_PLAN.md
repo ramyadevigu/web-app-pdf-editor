@@ -1,6 +1,6 @@
 # QA Test Plan
 
-**Status:** Approved test plan as of 15 November 2026; no test execution is claimed here. Proposed thresholds and open test parameters remain subject to their stated approval gates.  
+**Status:** Approved test plan; the DT-04 POC ran on 16 November 2026. Broader application QA and release targets remain unverified.
 **Applies to:** The staged approach in [the implementation plan](IMPLEMENTATION_PLAN.md). Requirement IDs refer to [PDF Editor requirements](docs/requirements/PDF-Editor-Requirements.md).
 
 ## 1. Test objectives
@@ -15,9 +15,9 @@
 
 ### POC fixture set
 
-The proposed five-file dataset and inspected metadata are recorded in [the POC protocol](docs/poc-protocol-proposal.md). It includes a synthetic contract, a fillable form, a multi-column report, an embedded-font specimen, and a single-column reference. The protocol is not frozen until its dataset, thresholds, renderer, comparison method, and reference environment are approved. Scanned PDFs are excluded from this POC and tracked separately (OD-002).
+The five-file dataset and inspected metadata are recorded in [the POC protocol](docs/poc-protocol-proposal.md). It includes a synthetic contract, a fillable form, a multi-column report, an embedded-font specimen, and a single-column reference. The user approved and froze the protocol on 16 November 2026. Scanned PDFs are excluded from this POC and tracked separately (OD-002).
 
-Use the same PDF.js version, browser, viewport, rendering settings, and 150 dpi output comparison for original and exported pages. The comparison threshold and reference hardware are proposals and must be approved and fixed before execution.
+Use the approved PDF.js version, browser, viewport, rendering settings, and 150 dpi output comparison for original and exported pages as specified in the frozen protocol. The DT-04 execution evidence is recorded in [the test execution report](TEST_EXECUTION_REPORT.md).
 
 ### General fixture coverage
 
@@ -29,15 +29,15 @@ Supported browsers, versions, operating systems, and minimum device capabilities
 
 ## 3. In-place editing POC gate
 
-| Check | Proposed pass condition | Severity / decision |
+| Check | Approved pass condition | Severity / decision |
 |---|---|---|
-| Caret placement | Within 2 pt of intended character for at least 95% of sampled positions | Before the run, resolve whether any out-of-tolerance position is a critical "caret miss" or whether misses up to the 5% allowance are acceptable |
+| Caret placement | Within 2 pt of intended character for at least 95% of sampled positions | Isolated out-of-tolerance positions count as misses but are not independently critical. Wrong-glyph, missing-text, or wrong-target edits are critical. |
 | Font matching | Preserve original embedded font; otherwise flag fallback in UI | Unflagged substitution is critical |
 | Paragraph reflow | Edited paragraph remains inside its paragraph box and does not overlap the next block on every fixture | Any overlap is critical |
 | Export fidelity | Reopen output with the same renderer; unedited pages retain text and layout; visual diff no greater than 0.5% per page at 150 dpi | Changed text layer on an unedited page is critical |
 | Overall decision | All criteria pass on at least 4 of 5 files and no file has a critical failure | Go supports tested scope; otherwise no-go and overlay-only fallback if approved |
 
-The numeric values above come from the design review as proposals. Confirm them and resolve the caret-miss severity ambiguity before the POC. Record each sampled position, result, failure classification, and per-file decision in [the execution report](TEST_EXECUTION_REPORT.md). Do not infer universal PDF support from a passing fixture set.
+The user approved these POC criteria on 16 November 2026, and the procedures are frozen in [the POC protocol](docs/poc-protocol-proposal.md). The valid DT-04 run passed 121/121 caret samples and export fidelity, but reflow failed on all five fixtures and every output retained original text beneath an overlay, producing a NO-GO. See [the execution report](TEST_EXECUTION_REPORT.md) for run IDs and evidence. Do not infer universal PDF support from this synthetic fixture set.
 
 ## 4. Functional and regression coverage
 

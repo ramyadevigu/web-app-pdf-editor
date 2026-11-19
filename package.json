@@ -1,0 +1,29 @@
+{
+  "name": "web-app-pdf-editor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run --passWithNoTests",
+    "poc:text-editing": "node scripts/poc/server.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "6.5.438",
+    "typescript": "^5",
+    "vitest": "^2.1.9"
+  }
+}

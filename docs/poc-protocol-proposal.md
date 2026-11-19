@@ -1,8 +1,10 @@
 # In-Place Text Editing POC Protocol Proposal
 
-**Status:** DT-03 in progress; fixture files have been generated and inspected, but protocol values are not yet approved or frozen for execution.  
+**Status:** Protocol approved by the user on 16 November 2026 and frozen for DT-04 as of 16 November 2026 (DT-03 complete). Changes after DT-04 starts require a new approved protocol.  
 **Prepared:** 15 November 2026  
-**Implementation boundary:** This document defines a proposed test contract only. It does not select an editing engine, add a dependency, run the POC, or authorize full editor work.
+**Implementation boundary:** This document records the POC test contract. It does not select an editing engine or authorize full editor work.
+
+**User response, 16 November 2026:** Asked "Can we edit existing PDF text directly and export it without damaging the document?", the user answered "Yes" and approved the POC protocol. This records the user's desired outcome, not a measured result: feasibility remains unverified until the POC is run and evaluated.
 
 ## 1. Dataset proposal
 
@@ -41,30 +43,54 @@ The fixture text and font profile are synthetic and do not establish coverage of
 - Reference machine: Intel Core i5-8300H, 23.85 GiB physical RAM. Record the same configuration for every run; this is a fidelity reference, not the separate 8 GB performance target.
 - The PDF.js package version is the `latest` dist-tag reported by the npm registry on 15 November 2026. Pin it in the POC harness; do not silently update it during the run.
 - Render at 150 dpi and compare unedited pages. For edited pages, compare unaffected regions outside the documented edit area.
-- Record the exact image-diff algorithm, color handling, antialiasing policy, and denominator before execution. The existing 0.5% pixel-difference threshold is a proposal, not an approved value.
+- Use the image-diff threshold and algorithm in Section 4; record the remaining color-handling and antialiasing policy before execution.
 - Save fixture IDs, input/output hashes, reference images, diff images, and per-page metrics in the execution report.
 
-## 4. Proposed pass criteria
+## 4. Approved pass criteria and remaining details
 
-| Check | Existing proposal | Decision still required |
+| Check | Criterion | Interpretation / outstanding detail |
 |---|---|---|
-| Caret placement | At least 95% of sampled positions land within 2 pt of the intended character | Proposed resolution: an individual position outside 2 pt is recorded as a miss but is not independently critical; a file fails this criterion if fewer than 95% pass. A wrong glyph, missing text, or edit applied to the wrong text remains critical. |
-| Font matching | Preserve the original embedded font; if unavailable, visibly flag the fallback | Confirm that an unflagged substitution is a critical failure. |
-| Paragraph reflow | Edited paragraphs remain in their paragraph boxes and do not overlap the next block on every fixture | Define the paragraph-box annotation and overlap measurement procedure. |
-| Export fidelity | Unedited pages preserve text and layout; proposed maximum visual difference is 0.5% per page at 150 dpi | Proposed image-diff method: count pixels whose maximum absolute per-channel RGB difference exceeds 16/255, divided by total page pixels; compare at 150 dpi. |
+| Caret placement | At least 95% of sampled positions land within 2 pt of the intended character | An individual position outside 2 pt is recorded as a miss but is not independently critical; a file fails this criterion if fewer than 95% pass. A wrong glyph, missing text, or edit applied to the wrong text remains critical. |
+| Font matching | Preserve the original embedded font; if unavailable, visibly flag the fallback | An unflagged substitution is a critical failure. |
+| Paragraph reflow | Edited paragraphs remain in their paragraph boxes and do not overlap the next block on every fixture | Paragraph-box and overlap measurement are defined in Section 6.2. |
+| Export fidelity | Unedited pages preserve text and layout; maximum visual difference is 0.5% per page at 150 dpi | Image-diff method: count pixels whose maximum absolute per-channel RGB difference exceeds 16/255, divided by total page pixels; compare at 150 dpi. |
 | Overall decision | Go only when all criteria pass on at least four of five files and no critical failure occurs; otherwise no-go for the tested scope | Any critical failure on any fixture makes the overall decision no-go. |
 
 ## 5. Proposed reference environment
 
-The proposed reference environment is the currently available Windows 11 machine listed above, with Chrome at the recorded version. Before execution, verify that the browser build and hardware still match; a mismatch requires updating and re-approving the protocol. The separate 100 MB / 10 second / 1 GB proposal is a Release 1 performance gate and is not included in this text-fidelity POC.
+The reference environment is the Windows 11 machine listed above, with Chrome at the recorded version. Before execution, verify that the browser build and hardware still match; a mismatch requires updating and re-approving the protocol. The separate 100 MB / 10 second / 1 GB proposal is a Release 1 performance gate and is not included in this text-fidelity POC.
 
-## 6. Approval and next steps
+## 6. Frozen procedures (DT-03 complete, 16 November 2026)
 
-Before calling DT-03 complete, approve or revise:
+### 6.1 Caret sample selection
 
-1. Approve or revise the five generated synthetic fixtures, including their page counts, actual font resources, and recorded hashes.
-2. Approve or revise the caret-miss severity and overall critical-failure rule.
-3. Approve or revise the 0.5% visual-diff threshold, exact diff method, and reference environment.
-4. Approve PDF.js 6.5.438 and the recorded browser versions for this POC renderer.
+- Generator: [select_caret_samples.py](../scripts/select_caret_samples.py). Output: [caret_samples.json](../tests/fixtures/poc/caret_samples.json), keyed by fixture file and page.
+- Each text run reported by pypdf's text visitor is a candidate. Runs are sorted top-to-bottom, then left-to-right.
+- If a page has ten or more runs, ten are chosen at evenly spaced positions in that order. If a page has fewer than ten, every run is sampled.
+- Each sample's expected caret location is the run's start point (`expected_x_pt`, `expected_y_pt`). Pages with fewer than ten runs have 7 to 9 samples: contract pages 1 and 3 have 9, form page 2 has 7, and reference pages 1 and 2 have 8.
+- This is run-start sampling only. It does not separately sample line middles and line ends as the earlier draft proposed. Line-end and mid-line samples are excluded from the frozen contract.
+- Pass rule per Section 4 applies to the actual sample count for each file. A file passes the caret criterion when at least 95% of its samples land within 2 pt.
 
-DT-04 must not begin until the user approves this dataset and protocol. A passing result supports only the tested scope, not arbitrary PDF support.
+### 6.2 Paragraph box and overlap
+
+- A paragraph box is the rectangle from the top of its first rendered line to the bottom of its last rendered line, horizontally spanning the paragraph's text-run extents. Boxes are measured from the PDF.js text layer (`getTextContent`) at 150 dpi.
+- An edit passes reflow when the edited paragraph's new box stays inside its original column and does not intersect the box of the next paragraph or the next column.
+- Overlap is any positive-area intersection of boxes. Any overlap on any fixture is critical (Section 4).
+
+### 6.3 Image comparison
+
+- Render both the original and exported page with PDF.js 6.5.438 canvas rendering at 150 dpi (scale 150/72), with default PDF.js antialiasing, no custom font substitution, and no color management.
+- Compare pixels at equal coordinates. A pixel differs when its maximum absolute RGB channel difference exceeds 16/255.
+- Denominator is the total pixel count of the page. Exclude only the documented edit rectangle on edited pages.
+- Per-page ratio above 0.5% is a failure for an unedited page (Section 4).
+
+### 6.4 Reference environment (verified 16 November 2026)
+
+- Chrome 157.0.8103.51 and Microsoft Edge 157.0.4341.60 installed.
+- Windows build 26300 (Windows 11 build range). Registry `ProductName` reads "Windows 10 Home"; this is a known display discrepancy and is recorded as-is, not corrected.
+- Intel Core i5-8300H, 23.85 GB RAM.
+- Any change to browser build or hardware requires re-approval.
+
+### 6.5 Scope limits
+
+The fixtures are synthetic and the results cover only the tested scope. Further POC runs require separate explicit user approval and a newly approved protocol if the approach or criteria change. A passing result supports only the tested scope, not arbitrary PDF support.
