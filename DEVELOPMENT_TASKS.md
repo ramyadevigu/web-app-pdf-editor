@@ -9,6 +9,7 @@
 - DT-03 is complete. Five synthetic fixtures are generated and inspected, the user approved the protocol on 16 November 2026, and the procedures are frozen in [the POC protocol](docs/poc-protocol-proposal.md) (Section 6). Caret samples are in [caret_samples.json](tests/fixtures/poc/caret_samples.json).
 - DT-04 is complete. The five-fixture POC ran in the verified reference environment and returned NO-GO: caret anchors and export fidelity passed, but all fixtures failed reflow and the output retained original text beneath an overlay. See [the execution report](TEST_EXECUTION_REPORT.md) and [valid run summary](tests/fixtures/poc/results/20261116T170536Z/summary.json).
 - The initial run used an invalid viewport and is retained as evidence but excluded from the decision. No production PDF dependency, server-processing workflow, or deployment has been added; the POC used pinned development dependencies and a local-only server.
+- Implementation override on 21 November 2026: DT-06 may begin for upload, validation, rendering, and export foundation without starting text editing, server workflows, or redaction. Keep DT-05 and DT-08 gated as listed below.
 
 **Next steps:** Complete DT-05 by recording approval of the evidence-based NO-GO and explicitly deciding whether any overlay-only text editing is in scope; do not treat it as in-place editing. Once DT-05 is recorded, proceed to DT-06, then DT-07. Keep DT-08 blocked until its text-editing scope follows the approved DT-05 decision. Any new editing approach or changed criteria requires a separately approved protocol before another POC run.
 
@@ -21,7 +22,7 @@
 | DT-03 | Freeze POC dataset, thresholds, and test procedure | DT-01, DT-02 | Five named PDFs, page counts, font lists, sampling plan, reference renderer, and approved thresholds recorded | Done |
 | DT-04 | Implement and run the in-place text-editing POC | DT-02, DT-03 | Results for caret placement, font handling, reflow, and output fidelity for each fixture | Done |
 | DT-05 | Make and record the POC go/no-go decision | DT-04 | Decision follows the approved gate; supported scope and fallback are explicit | Pending |
-| DT-06 | Build Release 1 upload, validation, rendering, and export foundation | DT-01, DT-05 | Focused tests for valid, unsupported, corrupt, encrypted, and oversized inputs; original preserved; valid export | Pending |
+| DT-06 | Build Release 1 upload, validation, rendering, and export foundation | DT-01, DT-05 | Focused tests for valid, unsupported, corrupt, encrypted, and oversized inputs; original preserved; valid export | In progress |
 | DT-07 | Implement shared document state, commands, selection, and undo/redo | DT-06 | Cross-tool state/history behavior tested; no assumed persistence across reloads | Pending |
 | DT-08 | Implement approved text and image editing | DT-05, DT-06, DT-07 | Text scope follows POC decision; insert/manipulate/export tests pass | Pending |
 | DT-09 | Implement approved annotations, shapes, and signatures | DT-06, DT-07 | Create/edit/delete/undo/export tests pass; signature data protected if stored | Pending |
